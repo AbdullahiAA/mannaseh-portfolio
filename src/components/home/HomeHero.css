@@ -1,0 +1,33 @@
+.homeHero {
+  display: flex;
+  min-height: 90vh;
+  max-height: 1080px;
+  padding-right: 40px;
+
+  display: grid;
+  grid-template-columns: 5fr 8fr;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeHero__img {
+  height: 80vh;
+  max-height: 864px;
+  background-image: url(../../images/heroImg.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.homeHero__content {
+  max-width: 764px;
+  margin-left: -64px;
+}
+
+.homeHero__content span {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.homeHero__content p {
+  color: var(--text-color);
+}
