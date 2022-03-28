@@ -1,0 +1,21 @@
+header {
+  padding: 35px var(--side-space);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  padding: 32px 24px;
+  color: hsla(0, 0%, 100%, 0.7);
+  transition: color 350ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #0ff;
+}

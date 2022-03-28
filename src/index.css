@@ -1,13 +1,171 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --paragraph-color: #8491a0;
+
+  --side-space: 72px;
+  --section-padding: 120px var(--side-space);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sen", sans-serif;
+  scroll-behavior: smooth;
+  color: var(--text-color);
+  z-index: 1;
+}
+
+body {
+  font-family: "Sen", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  background-color: var(--bg-color);
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 76px;
+  line-height: 110%;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 110%;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 120%;
+}
+
+p,
+li {
+  color: var(--paragraph-color);
+  font-size: 18px;
+  line-height: 150%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+.button {
+  font-size: 18px;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 15px;
+  font-weight: 500;
+  transition: transform 0.4s ease-in-out;
+  background-image: radial-gradient(at center center, #1832ca 0%, #000000 100%);
+}
+
+button:hover,
+.button:hover {
+  color: #000000 !important;
+  transform: translateY(-8px);
+  box-shadow: 0px 15px 25px -7px rgba(0, 0, 0, 10%);
+}
+
+button:hover svg *,
+.button:hover svg * {
+  color: #000000 !important;
+}
+
+img {
+  user-select: none;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay > * {
+  position: relative;
+  z-index: 9999;
+}
+
+.overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #ffffff00 0%, #1832ca 100%);
+  opacity: 0.4;
+  transition: background-image 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --section-padding: 60px 40px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  :root {
+    --section-padding: 40px 20px;
+  }
+
+  h1 {
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  button,
+  .button {
+    font-size: 16px;
+  }
 }
