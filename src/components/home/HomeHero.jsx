@@ -21,6 +21,8 @@ function HomeHero() {
           your guy.
         </p>
       </div>
+
+      <div className="homeHero__bg"></div>
     </section>
   );
 }

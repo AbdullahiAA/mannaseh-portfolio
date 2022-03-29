@@ -5,7 +5,7 @@
   padding-right: 40px;
 
   display: grid;
-  grid-template-columns: 5fr 8fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: space-between;
 }
@@ -30,4 +30,17 @@
 
 .homeHero__content p {
   color: var(--text-color);
+}
+
+.homeHero__bg {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: -1;
+  width: 65vw;
+  height: 110vh;
+  max-height: 1350px;
+  background-image: linear-gradient(180deg, #181823, #181823);
 }
