@@ -4,6 +4,7 @@ import Header from "./components/global/Header";
 import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import Contact from "./components/global/Contact";
+import Footer from "./components/global/Footer";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Contact />
         </main>
 
-        {/* Footer */}
+        <Footer />
       </BrowserRouter>
     </div>
   );
