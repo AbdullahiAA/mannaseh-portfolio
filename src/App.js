@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/global/Header";
 import Experience from "./pages/Experience";
 import Home from "./pages/Home";
+import Contact from "./components/global/Contact";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
 
-          {/* Contact */}
+          <Contact />
         </main>
 
         {/* Footer */}

@@ -1,0 +1,13 @@
+.contact {
+  padding: var(--section-padding);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact p {
+  margin-bottom: 20px;
+  width: 50%;
+}
