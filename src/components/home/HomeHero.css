@@ -8,6 +8,9 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: space-between;
+
+  overflow: hidden !important;
+  /* position: relative; */
 }
 
 .homeHero__img {
