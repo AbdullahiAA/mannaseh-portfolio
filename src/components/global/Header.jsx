@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -9,16 +10,19 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#">Mentorship</a>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a href="#">Experience</a>
+            <NavLink to="#">Mentorship</NavLink>
           </li>
           <li>
-            <a href="#">Crypto nuggets</a>
+            <NavLink to="/experience">Experience</NavLink>
           </li>
           <li>
-            <a href="#">Investments</a>
+            <NavLink to="#">Crypto nuggets</NavLink>
+          </li>
+          <li>
+            <NavLink to="#">Investments</NavLink>
           </li>
         </ul>
       </nav>
