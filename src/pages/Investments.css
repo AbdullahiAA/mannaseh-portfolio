@@ -1,0 +1,27 @@
+.investments {
+  padding: var(--section-padding);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.investments div {
+  padding-right: 48px;
+}
+
+.investments__header {
+  grid-row: span 2;
+}
+
+.investments__header h2 {
+  margin-bottom: 24px;
+}
+
+.investments__item h3 {
+  margin-bottom: 16px;
+}
+
+.investments__item p {
+  font-size: 16px;
+}

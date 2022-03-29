@@ -5,7 +5,9 @@ import "./Header.css";
 function Header() {
   return (
     <header>
-      <div className="header__logo">MANNASEH</div>
+      <div className="header__logo">
+        <h3>Manasseh.E</h3>
+      </div>
 
       <nav>
         <ul>
@@ -13,7 +15,7 @@ function Header() {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="#">Mentorship</NavLink>
+            <NavLink to="/mentorship">Mentorship</NavLink>
           </li>
           <li>
             <NavLink to="/experience">Experience</NavLink>
@@ -22,10 +24,12 @@ function Header() {
             <NavLink to="#">Crypto nuggets</NavLink>
           </li>
           <li>
-            <NavLink to="#">Investments</NavLink>
+            <NavLink to="/investments">Investments</NavLink>
           </li>
         </ul>
       </nav>
+
+      <div className="header__bg"></div>
     </header>
   );
 }

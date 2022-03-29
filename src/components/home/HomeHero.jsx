@@ -8,17 +8,17 @@ function HomeHero() {
 
       <div className="homeHero__content">
         <h1>
-          I'm Robin Willaims.
+          I'm Manasseh Egedegbe.
           <br />
-          A Product Designer
+          A CIO by day
           <br />
-          <span>based in Italy.</span>
+          <span>an investor by night.</span>
         </h1>
 
         <p>
-          I’m probably the most passionate designer you will ever get to work
-          with. If you have a great project that needs some amazing skills, I’m
-          your guy.
+          I am the Founder and Chief Investment Officer at Kudy Financials, and
+          a crypto enthusiast who has been actively investing in crypto since
+          2016.
         </p>
       </div>
 

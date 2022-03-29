@@ -9,6 +9,24 @@ footer {
   justify-content: space-between;
 }
 
+.footer__socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.twitter * {
+  color: #00acee;
+}
+
+.instagram * {
+  color: #e95d90;
+}
+
+.linkedin * {
+  color: #0072b1;
+}
+
 .footer__mainNav {
   padding-right: var(--side-space);
 }

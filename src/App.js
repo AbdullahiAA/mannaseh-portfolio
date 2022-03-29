@@ -5,6 +5,8 @@ import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import Contact from "./components/global/Contact";
 import Footer from "./components/global/Footer";
+import Mentorship from "./pages/Mentorship";
+import Investments from "./pages/Investments";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/mentorship" element={<Mentorship />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/investments" element={<Investments />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
 
