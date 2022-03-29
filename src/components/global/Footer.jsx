@@ -36,7 +36,7 @@ function Footer() {
               <NavLink to="/experience">Experience</NavLink>
             </li>
             <li>
-              <NavLink to="#">Crypto nuggets</NavLink>
+              <NavLink to="//cryto-nuggets">Crypto nuggets</NavLink>
             </li>
             <li>
               <NavLink to="/investments">Investments</NavLink>
