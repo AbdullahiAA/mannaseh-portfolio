@@ -65,7 +65,7 @@ footer {
 
 @media screen and (max-width: 550px) {
   footer {
-    padding: 80px 40px;
+    padding: 80px 20px;
   }
 
   .footer__main {
