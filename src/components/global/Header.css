@@ -42,7 +42,7 @@ ul li a.active {
   background-color: var(--footer-bg);
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 900px) {
   header {
     padding: 0px;
     padding-left: var(--side-space);
@@ -111,6 +111,12 @@ ul li a.active {
 
   .menuIcon {
     display: block;
+    padding: 32px 24px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .menuIcon {
     padding: 24px;
   }
 }

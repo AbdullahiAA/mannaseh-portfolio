@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 600px;
+  overflow: hidden;
 }
 
 .cardContent {
@@ -24,7 +25,7 @@
 .cardButton {
   display: inline-block;
   border-bottom: 1px solid #5b6876;
-  color: #181823;
+  color: var(--footer-bg);
   font-size: 16px;
   line-height: 40px;
   cursor: pointer;
@@ -42,6 +43,14 @@
 @media screen and (max-width: 900px) {
   .card {
     height: 500px;
+  }
+
+  .cardButton:hover {
+    padding-right: initial;
+    padding-left: initial;
+    border-bottom: 1px solid #5b6876;
+    background-image: initial;
+    color: var(--footer-bg);
   }
 }
 

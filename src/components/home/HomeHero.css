@@ -41,9 +41,15 @@
   bottom: auto;
   z-index: -1;
   width: 65vw;
-  height: 100vh;
+  height: 110vh;
   max-height: 1350px;
   background-color: var(--footer-bg);
+}
+
+@media screen and (max-width: 550px) {
+  .homeHero__bg {
+    height: 100vh;
+  }
 }
 
 @media screen and (max-width: 550px) {

@@ -31,11 +31,14 @@
 }
 
 @media screen and (max-width: 900px) {
+  .experience__img {
+    background-position: initial;
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
   .experience {
     grid-template-rows: 1fr 450px;
-  }
-
-  .experience__img {
-    background-size: 100% 100%;
   }
 }
