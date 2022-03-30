@@ -3,6 +3,7 @@
   --footer-bg: #181823;
   --text-color: #ffffff;
   --paragraph-color: #8491a0;
+  --sec-color: #5221e6;
 
   --side-space: 72px;
   --section-padding: 120px var(--side-space);
@@ -65,24 +66,23 @@ button,
 .button {
   font-size: 18px;
   outline: none;
-  border: 0px;
+  border: 2px solid var(--sec-color);
   cursor: pointer;
 
   /* width: 100%; */
-  background-color: #5221e6;
+  background-color: var(--sec-color);
   font-weight: 700;
 
   display: flex;
   gap: 10px;
   align-items: center;
   padding: 15px 24px;
-  transition: transform 0.4s ease-in-out;
+  transition: background-color 350ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 button:hover,
 .button:hover {
-  color: #000000 !important;
-  transform: translateY(-8px);
+  background-color: transparent;
   box-shadow: 0px 15px 25px -7px rgba(0, 0, 0, 10%);
 }
 

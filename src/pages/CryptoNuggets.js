@@ -1,11 +1,11 @@
 import React from "react";
+import Card, { CardContent } from "../components/global/Card";
 import "./CryptoNuggets.css";
-import crypto from "../images/heroImg.jpg";
 
 function CryptoNuggets() {
   return (
-    <section className="cryptoNuggets">
-      <div className="cryptoNuggets__content">
+    <Card className="cryptoNuggets">
+      <CardContent className="cryptoNuggets__content">
         <h2>Crypto nugget</h2>
 
         <p>
@@ -14,13 +14,17 @@ function CryptoNuggets() {
           times.
         </p>
 
-        <button>Follow my crypto gems</button>
-      </div>
+        <a
+          href="https://twitter.com/knightofdelta?s=21"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Follow my crypto gems
+        </a>
+      </CardContent>
 
-      <div className="cryptoNuggets__img">
-        <img src={crypto} alt="" />
-      </div>
-    </section>
+      <div className="cryptoNuggets__img"></div>
+    </Card>
   );
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import "./Footer.css";
 
 function Footer() {
@@ -11,14 +11,19 @@ function Footer() {
           <h3>Manasseh.E</h3>
 
           <div className="footer__socials">
-            <a href="https://twitter.com">
+            <a
+              href="https://twitter.com/knightofdelta?s=21"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaTwitter className="twitter" />
             </a>
-            <a href="https://instagram.com">
-              <FaInstagram className="instagram" />
-            </a>
 
-            <a href="https://linkedin.com">
+            <a
+              href="https://www.linkedin.com/in/manasseh-egedegbe-cfa-61851310/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin className="linkedin" />
             </a>
           </div>
