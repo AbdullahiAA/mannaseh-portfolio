@@ -1,3 +1,9 @@
 .experience {
-  padding: var(--section-padding);
+  background-color: #fff3e4;
+}
+
+.experience__img {
+  background-image: url(../images/experience.jpg);
+  background-position: 50% 50%;
+  background-size: 100%;
 }
