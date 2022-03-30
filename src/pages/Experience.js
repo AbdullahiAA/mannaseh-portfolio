@@ -1,7 +1,5 @@
 import React from "react";
-// import ExperienceList from "../components/experience/ExperienceList";
-import Card, { CardContent } from "../components/global/Card";
-// import SectionHeader from "../components/global/SectionHeader";
+import Card, { CardButton, CardContent } from "../components/global/Card";
 import "./Experience.css";
 
 function Experience() {
@@ -22,8 +20,9 @@ function Experience() {
           management.
         </p>
 
-        <a href="#read-more">Read more</a>
+        <CardButton href="#read-more">Read more</CardButton>
       </CardContent>
+
       <div className="experience__img"></div>
     </Card>
   );

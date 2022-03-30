@@ -9,5 +9,18 @@ function CardContent({ children }) {
   return <div className="cardContent">{children}</div>;
 }
 
+function CardButton({ href, className, children }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+      className={`cardButton ${className}`}
+    >
+      {children}
+    </a>
+  );
+}
+
 export default Card;
-export { CardContent };
+export { CardContent, CardButton };

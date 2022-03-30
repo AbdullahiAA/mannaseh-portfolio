@@ -8,7 +8,9 @@ function Footer() {
     <footer>
       <div className="footer__main">
         <div className="footer__mainLeft">
-          <h3>Manasseh.E</h3>
+          <h3>
+            <NavLink to="/">Manasseh.E</NavLink>
+          </h3>
 
           <div className="footer__socials">
             <a
@@ -35,16 +37,16 @@ function Footer() {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/mentorship">Mentorship</NavLink>
-            </li>
-            <li>
               <NavLink to="/experience">Experience</NavLink>
             </li>
             <li>
-              <NavLink to="//cryto-nuggets">Crypto nuggets</NavLink>
+              <NavLink to="/investments">Investments</NavLink>
             </li>
             <li>
-              <NavLink to="/investments">Investments</NavLink>
+              <NavLink to="/cryto-nuggets">Crypto nuggets</NavLink>
+            </li>
+            <li>
+              <NavLink to="/mentorship">Mentorship</NavLink>
             </li>
           </ul>
         </div>

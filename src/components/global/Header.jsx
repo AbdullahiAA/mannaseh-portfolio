@@ -6,7 +6,9 @@ function Header() {
   return (
     <header>
       <div className="header__logo">
-        <h3>Manasseh.E</h3>
+        <h3>
+          <NavLink to="/">Manasseh.E</NavLink>
+        </h3>
       </div>
 
       <nav>
@@ -15,16 +17,16 @@ function Header() {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/mentorship">Mentorship</NavLink>
+            <NavLink to="/experience">Experience</NavLink>
           </li>
           <li>
-            <NavLink to="/experience">Experience</NavLink>
+            <NavLink to="/investments">Investments</NavLink>
           </li>
           <li>
             <NavLink to="/cryto-nuggets">Crypto nuggets</NavLink>
           </li>
           <li>
-            <NavLink to="/investments">Investments</NavLink>
+            <NavLink to="/mentorship">Mentorship</NavLink>
           </li>
         </ul>
       </nav>

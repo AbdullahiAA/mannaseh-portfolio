@@ -1,5 +1,5 @@
 import React from "react";
-import Card, { CardContent } from "../components/global/Card";
+import Card, { CardButton, CardContent } from "../components/global/Card";
 import "./CryptoNuggets.css";
 
 function CryptoNuggets() {
@@ -14,13 +14,9 @@ function CryptoNuggets() {
           times.
         </p>
 
-        <a
-          href="https://twitter.com/knightofdelta?s=21"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <CardButton href="https://twitter.com/knightofdelta?s=21">
           Follow my crypto gems
-        </a>
+        </CardButton>
       </CardContent>
 
       <div className="cryptoNuggets__img"></div>

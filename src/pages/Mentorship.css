@@ -1,3 +1,52 @@
 .mentorship {
   padding: var(--section-padding);
 }
+
+.mentorship .cardButton {
+  color: white;
+}
+
+.mentorship__content {
+  width: 60%;
+  margin-bottom: 80px;
+}
+
+.mentorship__content h2 {
+  margin-bottom: 24px;
+}
+
+.mentorship__content p {
+  margin-bottom: 40px;
+}
+
+.mentorship__browser {
+  border-radius: 8px;
+  max-width: 1076px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mentorship__browserBar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 37px;
+  padding-left: 16px;
+  background-color: var(--footer-bg);
+}
+
+.mentorship__browserBar span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--paragraph-color);
+}
+
+.mentorship__browserBody {
+  height: 640px;
+  background-image: url(../images/mentorship.jpg);
+  background-position: 50% 50%;
+  background-size: 1024px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
