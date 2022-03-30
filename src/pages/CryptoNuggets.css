@@ -5,3 +5,10 @@
 .cryptoNuggets__img {
   background-image: url(../images/cryptoNuggets.jpg);
 }
+
+@media screen and (max-width: 550px) {
+  .cryptoNuggets__img {
+    background-position: 50% 0%;
+    background-size: cover;
+  }
+}

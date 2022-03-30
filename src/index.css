@@ -92,54 +92,31 @@ img {
 
 @media screen and (max-width: 900px) {
   :root {
-    --section-padding: 60px 40px;
+    --side-space: 40px;
+    --section-padding: 80px var(--side-space);
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 56px;
   }
 
   h2 {
     font-size: 45px;
   }
-
-  h3 {
-    font-size: 26px;
-  }
-
-  h4 {
-    font-size: 24px;
-  }
 }
 
 @media screen and (max-width: 550px) {
   :root {
-    --section-padding: 40px 20px;
+    --side-space: 20px;
+    --section-padding: 64px var(--side-space);
   }
 
-  h1 {
-    font-size: 33px;
-    margin-bottom: 20px;
-  }
-
+  h1,
   h2 {
-    font-size: 28px;
+    font-size: 32px;
   }
 
   h3 {
-    font-size: 18px;
-  }
-
-  h4 {
-    font-size: 17px;
-  }
-
-  h5 {
-    font-size: 16px;
-  }
-
-  button,
-  .button {
-    font-size: 16px;
+    font-size: 24px;
   }
 }

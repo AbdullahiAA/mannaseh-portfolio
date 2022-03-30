@@ -29,6 +29,14 @@ function Investments() {
       <div className="investments__item">
         <span>SVG ICON</span>
 
+        <h3>Innovation</h3>
+
+        <p>I look out for innovative solutions across diverse industries</p>
+      </div>
+
+      <div className="investments__item">
+        <span>SVG ICON</span>
+
         <h3>Competitive Advantage</h3>
 
         <p>I look out for something around a blue ocean strategy</p>
@@ -42,14 +50,6 @@ function Investments() {
         <p>
           I avoid duplication of ideas; in layman terms, I don’t like copycats.
         </p>
-      </div>
-
-      <div className="investments__item">
-        <span>SVG ICON</span>
-
-        <h3>Innovation</h3>
-
-        <p>I look out for innovative solutions across diverse industries</p>
       </div>
     </section>
   );

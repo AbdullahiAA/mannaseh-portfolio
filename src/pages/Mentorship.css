@@ -50,3 +50,28 @@
   background-repeat: repeat;
   background-attachment: fixed;
 }
+
+@media screen and (max-width: 900px) {
+  .mentorship__content {
+    width: 80%;
+  }
+
+  .mentorship__browserBody {
+    background-size: 90% 100%;
+    background-position: center center;
+  }
+
+  .mentorship__browserBody {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mentorship__content {
+    width: 100%;
+  }
+
+  .mentorship .cardButton {
+    font-size: 12px;
+  }
+}

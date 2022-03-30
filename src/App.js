@@ -8,11 +8,14 @@ import Footer from "./components/global/Footer";
 import Mentorship from "./pages/Mentorship";
 import Investments from "./pages/Investments";
 import CryptoNuggets from "./pages/CryptoNuggets";
+import ScrollToTop from "./components/global/ScrollToTop";
 
 function App() {
   return (
     <div className="app">
       <BrowserRouter>
+        <ScrollToTop />
+
         <Header />
 
         <main>

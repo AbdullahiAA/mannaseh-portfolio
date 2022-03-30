@@ -25,3 +25,28 @@
 .investments__item p {
   font-size: 16px;
 }
+
+@media screen and (max-width: 900px) {
+  .investments {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .investments__header {
+    grid-row: initial;
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .investments {
+    grid-template-columns: 1fr;
+  }
+
+  .investments__header {
+    grid-column: initial;
+  }
+
+  .investments div {
+    padding-right: 0px;
+  }
+}

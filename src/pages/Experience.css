@@ -29,3 +29,13 @@
 .otherContent.show {
   height: auto;
 }
+
+@media screen and (max-width: 900px) {
+  .experience {
+    grid-template-rows: 1fr 450px;
+  }
+
+  .experience__img {
+    background-size: 100% 100%;
+  }
+}

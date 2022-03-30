@@ -11,3 +11,16 @@
   margin-bottom: 20px;
   width: 50%;
 }
+
+@media screen and (max-width: 900px) {
+  .contact p {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact p {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+}

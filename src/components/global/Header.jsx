@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import menuIcon from "../../images/menuIcon.svg";
 import "./Header.css";
 
 function Header() {
@@ -30,6 +31,8 @@ function Header() {
           </li>
         </ul>
       </nav>
+
+      <img className="menuIcon" src={menuIcon} alt="Menu" />
 
       <div className="header__bg"></div>
     </header>
