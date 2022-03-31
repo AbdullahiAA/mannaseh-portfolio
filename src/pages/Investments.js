@@ -16,7 +16,7 @@ function Investments() {
           I invest specifically in Fintech and Medtech due to the availability
           and feasibility of the investments at that moment. I have made
           Credible investments including being the first to invest in Reliance
-          HMO, a medtech firm. Before investing, I have 4 things I look out for{" "}
+          HMO, a medtech firm. Before investing, I have 4 things I look out for
         </p>
       </div>
 

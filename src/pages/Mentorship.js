@@ -22,9 +22,9 @@ function Mentorship() {
 
       <div className="mentorship__browser">
         <div className="mentorship__browserBar">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span className="dot"></span>
+          <span className="dot"></span>
+          <span className="dot"></span>
         </div>
 
         <div className="mentorship__browserBody"></div>

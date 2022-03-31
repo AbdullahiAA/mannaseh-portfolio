@@ -109,9 +109,14 @@ ul li a.active {
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.12);
   }
 
+  nav ul li:first-of-type a {
+    border-top: 1px solid hsla(0, 0%, 100%, 0.12);
+  }
+
   .menuIcon {
     display: block;
     padding: 32px 24px;
+    cursor: pointer;
   }
 }
 

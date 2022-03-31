@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import "./Footer.css";
 
@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer__main">
         <div className="footer__mainLeft">
           <h3>
-            <NavLink to="/">Manasseh.E</NavLink>
+            <Link to="/">Manasseh.E</Link>
           </h3>
 
           <div className="footer__socials">
@@ -34,19 +34,19 @@ function Footer() {
         <div className="footer__mainNav">
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <NavLink to="/experience">Experience</NavLink>
+              <Link to="/experience">Experience</Link>
             </li>
             <li>
-              <NavLink to="/investments">Investments</NavLink>
+              <Link to="/investments">Investments</Link>
             </li>
             <li>
-              <NavLink to="/cryto-nuggets">Crypto nuggets</NavLink>
+              <Link to="/cryto-nuggets">Crypto nuggets</Link>
             </li>
             <li>
-              <NavLink to="/mentorship">Mentorship</NavLink>
+              <Link to="/mentorship">Mentorship</Link>
             </li>
           </ul>
         </div>

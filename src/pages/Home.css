@@ -14,7 +14,7 @@
 .homeHero__img {
   height: 80vh;
   max-height: 864px;
-  background-image: url(../../images/heroImg.jpg);
+  background-image: url(../images/heroImg.jpg);
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
