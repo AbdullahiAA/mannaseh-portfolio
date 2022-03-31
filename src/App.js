@@ -4,6 +4,7 @@ import Header from "./components/global/Header";
 import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import Contact from "./components/global/Contact";
+import CompanySlider from "./components/global/CompanySlider";
 import Footer from "./components/global/Footer";
 import Mentorship from "./pages/Mentorship";
 import Investments from "./pages/Investments";
@@ -27,6 +28,8 @@ function App() {
             <Route path="/cryto-nuggets" element={<CryptoNuggets />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
+
+          <CompanySlider />
 
           <Contact />
         </main>

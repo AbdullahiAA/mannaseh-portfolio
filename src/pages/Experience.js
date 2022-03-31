@@ -1,9 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Card, { CardContent } from "../components/global/Card";
 import "./Experience.css";
 
 function Experience() {
   const [showOtherContent, setShowOtherContent] = useState(false);
+
+  useEffect(() => {
+    if (showOtherContent === false) {
+      window.scrollTo(0, 0);
+    }
+  }, [showOtherContent]);
 
   return (
     <Card className={`experience  ${showOtherContent ? "show" : ""}`}>
