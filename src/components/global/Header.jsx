@@ -10,7 +10,7 @@ function Header() {
     <header>
       <div className="header__logo">
         <h3>
-          <NavLink to="/">Manasseh.E</NavLink>
+          <NavLink to="/">Manasseh</NavLink>
         </h3>
       </div>
 

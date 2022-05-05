@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer__main">
         <div className="footer__mainLeft">
           <h3>
-            <Link to="/">Manasseh.E</Link>
+            <Link to="/">Manasseh</Link>
           </h3>
 
           <div className="footer__socials">

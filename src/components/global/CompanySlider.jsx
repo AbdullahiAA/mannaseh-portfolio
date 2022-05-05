@@ -5,7 +5,6 @@ import img2 from "../../images/companies/delphistem-icon.jpeg";
 import img3 from "../../images/companies/kudi-logo.png";
 import img4 from "../../images/companies/reliance-petroleum.svg";
 import img5 from "../../images/companies/wella-health-logo.png";
-import img6 from "../../images/companies/flux-factory-logo.png";
 
 function CompanySlider() {
   const [left, setLeft] = useState("0px");
@@ -47,10 +46,6 @@ function CompanySlider() {
 
         <div>
           <img src={img5} alt="Company" />
-        </div>
-
-        <div>
-          <img src={img6} alt="Company" />
         </div>
       </div>
     </section>
